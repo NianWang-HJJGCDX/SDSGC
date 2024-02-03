@@ -20,10 +20,10 @@ Then, run  "Run_SDSGC.m".  The results of aLL datasets (benchamarks) are obtaine
 *  Seven clustering metrics are recorded (we only report three of them in the paper). For each dataset (benchamark), the accuracy (ACC), Normalized Mutual Information (NMI), Purity (PUR), Fscore, Precision (PRE), Recall (REC), Adjusted Rand Index (ARI), as well as  the average value (ave.) and standard deviation (std.) of them in total 5 runnings  (we set 5 runnings in the paper to demonstrate deterministic result) are recorded in "./Results_ySDSGC". For convenience,  the ave. and std. of seven metrics on all the datasets (benchmarks) are recorded in "./Results_ySDSGC_all". Moreover, the time cost of each running as well as the average value (ave.) and standard deviation (std.) in all 5 runnings are recorded in "./Results_timeSDSGC".
 *  The following images show the form of data recording.
 * 1) For the results  of  seven metrics on each dataset(benchamark): e.g., "./Results_ySDSGC/iris_result_y.mat".
-![fig2](./images/1.png)  
+![fig2](https://note.youdao.com/s/NMGjZOr)  
 * 2) For the ave. and std. of  seven metrics in all 5 runnings (all  dataset (benchamark) together): i.e., "./Results_ySDSGC_all/result_all.mat".
 * Columns (1-7) for ave. and Columns (10-16) for std.
-  ![fig3](./images/2.png)  
+  ![fig3](https://note.youdao.com/s/S30n7q6f)  
 * 3) The time cost of each running as well as its ave. and std. in all 5 runnings: e.g., "./Results_timeSDSGC/iris_result_time.mat"
   ![fig4](./images/3.png)  
 
