@@ -2,7 +2,7 @@
 This is a Matlab implementation of our paper "Structured Doubly Stochastic Graph based Clustering". Code will be updated after paper is published. 
 ## Usage
 # Main body 
-![图 1](./images/0.png)  
+![fig1](https://note.youdao.com/s/39aJofhI)  
 
 # To Reproduce  the results in the paper, please dicretly run the following two ".m" files respectively.
 * Run_SDSGC.m: run  SDSGC on real benchmarks.
@@ -20,10 +20,10 @@ Then, run  "Run_SDSGC.m".  The results of aLL datasets (benchamarks) are obtaine
 *  Seven clustering metrics are recorded (we only report three of them in the paper). For each dataset (benchamark), the accuracy (ACC), Normalized Mutual Information (NMI), Purity (PUR), Fscore, Precision (PRE), Recall (REC), Adjusted Rand Index (ARI), as well as  the average value (ave.) and standard deviation (std.) of them in total 5 runnings  (we set 5 runnings in the paper to demonstrate deterministic result) are recorded in "./Results_ySDSGC". For convenience,  the ave. and std. of seven metrics on all the datasets (benchmarks) are recorded in "./Results_ySDSGC_all". Moreover, the time cost of each running as well as the average value (ave.) and standard deviation (std.) in all 5 runnings are recorded in "./Results_timeSDSGC".
 *  The following images show the form of data recording.
 * 1) For the results  of  seven metrics on each dataset(benchamark): e.g., "./Results_ySDSGC/iris_result_y.mat".
-![图 2](./images/1.png)  
+![fig2](./images/1.png)  
 * 2) For the ave. and std. of  seven metrics in all 5 runnings (all  dataset (benchamark) together): i.e., "./Results_ySDSGC_all/result_all.mat".
 * Columns (1-7) for ave. and Columns (10-16) for std.
-  ![图 3](./images/2.png)  
+  ![fig3](./images/2.png)  
 * 3) The time cost of each running as well as its ave. and std. in all 5 runnings: e.g., "./Results_timeSDSGC/iris_result_time.mat"
-  ![图 4](./images/3.png)  
+  ![fig4](./images/3.png)  
 
