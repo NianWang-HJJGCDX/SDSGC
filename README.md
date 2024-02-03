@@ -2,7 +2,7 @@
 This is a Matlab implementation of our paper "Structured Doubly Stochastic Graph based Clustering". Code will be updated after paper is published. 
 ## Usage
 # Main body 
-![image](https://note.youdao.com/ynoteshare/index.html?id=b2cc15ec4b10706c68f5ad78cf812e52&type=note&_time=1706972794759)  
+![图 5](https://note.youdao.com/ynoteshare/index.html?id=b2cc15ec4b10706c68f5ad78cf812e52&type=note&_time=1706972794759)  
 
 # To Reproduce  the results in the paper, please dicretly run the following two ".m" files respectively.
 * Run_SDSGC.m: run  SDSGC on real benchmarks.
