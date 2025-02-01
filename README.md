@@ -1,4 +1,4 @@
-## Structured Doubly Stochastic Graph based Clustering
+## Structured Doubly Stochastic Graph-based Clustering （SDSGC）
 This is a Matlab implementation of  paper "Structured Doubly Stochastic Graph-based Clustering", which is accepted by TNNLS2025. 
 
 ## Contributions
@@ -17,13 +17,13 @@ Note: We crop the face area to form deep features, which implies some noised ima
 # For your own experiments, here are some important settings (Take "Run_SDSGC.m" as example)
 First, set runtimes and test datasets in "Run_SDSGC.m" 
 ```
-runtimes = 1; % runnings on each dataset, default: 1
+runtimes = 1; % runs on each dataset, default: 1
 dataname = {'iris','COIL20','zoo','COIL100','Yale_64x64','JAFFE_64x64','ORL_64x64','CASIA_64x64'}; 
 ```
 Then, run  "Run_SDSGC.m".  The results of aLL datasets (benchamarks) are obtained simultaneously and saved in corresponding pathes.
 # For result record
 
-*  Seven clustering metrics are recorded (we only report three of them in the paper). For each dataset (benchamark), the accuracy (ACC), Normalized Mutual Information (NMI), Purity (PUR), Fscore, Precision (PRE), Recall (REC), Adjusted Rand Index (ARI), as well as  the average value (ave.) and standard deviation (std.) of them in total 5 runs  (we set 5 runs in the paper to demonstrate deterministic result) are recorded in "./Results_ySDSGC". For convenience,  the ave. and std. of seven metrics on all the datasets (benchmarks) are recorded in "./Results_ySDSGC_all". Moreover, the time cost of each run as well as the average value (ave.) and standard deviation (std.) in all 5 runs are recorded in "./Results_timeSDSGC".
+Seven clustering metrics are recorded (we only report three of them in the paper). For each dataset (benchamark), the accuracy (ACC), Normalized Mutual Information (NMI), Purity (PUR), Fscore, Precision (PRE), Recall (REC), Adjusted Rand Index (ARI), as well as  the average value (ave.) and standard deviation (std.) of them in total 5 runs  (we set 5 runs in the paper to demonstrate deterministic results) are recorded in "./Results_ySDSGC". For convenience,  the ave. and std. of seven metrics on all the datasets (benchmarks) are recorded in "./Results_ySDSGC_all". Moreover, the time cost of each run as well as the average value (ave.) and standard deviation (std.) in all 5 runs are recorded in "./Results_timeSDSGC".
 # Citation
 If you think our work is helpful,  considering to give a star for this repository. Thanks!
 
