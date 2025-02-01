@@ -1,8 +1,14 @@
 ## Structured Doubly Stochastic Graph based Clustering
-This is a Matlab implementation of our paper "Structured Doubly Stochastic Graph based Clustering". Code will be updated after paper is published. 
+This is a Matlab implementation of  paper "Structured Doubly Stochastic Graph-based Clustering", which is accepted by TNNLS2025. 
+
+## Contributions
+
+The contributions of this paper are three folded.
+1) we propose a structured doubly stochastic graph-based clustering model termed SDSGC.
+2) we propose a novel method based ALM to optimize the subproblem with doubly stochastic constraints.
+3) we formulate an effective noise-adding scheme and generate a series of noised face data sets based on the pipeline of unconstrained face clustering.
+Note: We crop the face area to form deep features, which implies some noised images whose face area fails to be detected are discarded. We have updated all the ".mat" for these noised face data sets, if you need the original noisy face images, you can download at the [Link](https://nianwang-hjjgcdx.github.io/).
 ## Usage
-# Main body 
-![图 5](https://github.com/NianWang-HJJGCDX/images/blob/main/0.png)  
 
 # To Reproduce  the results in the paper, please dicretly run the following two ".m" files respectively.
 * Run_SDSGC.m: run  SDSGC on real benchmarks.
@@ -14,16 +20,24 @@ First, set runtimes and test datasets in "Run_SDSGC.m"
 runtimes = 1; % runnings on each dataset, default: 1
 dataname = {'iris','COIL20','zoo','COIL100','Yale_64x64','JAFFE_64x64','ORL_64x64','CASIA_64x64'}; 
 ```
-Then, run  "Run_SDSGC.m".  The results of aLL datasets (benchamarks) are obtained simultaneously and recorded as the following forms.
+Then, run  "Run_SDSGC.m".  The results of aLL datasets (benchamarks) are obtained simultaneously and saved in corresponding pathes.
 # For result record
 
-*  Seven clustering metrics are recorded (we only report three of them in the paper). For each dataset (benchamark), the accuracy (ACC), Normalized Mutual Information (NMI), Purity (PUR), Fscore, Precision (PRE), Recall (REC), Adjusted Rand Index (ARI), as well as  the average value (ave.) and standard deviation (std.) of them in total 5 runnings  (we set 5 runnings in the paper to demonstrate deterministic result) are recorded in "./Results_ySDSGC". For convenience,  the ave. and std. of seven metrics on all the datasets (benchmarks) are recorded in "./Results_ySDSGC_all". Moreover, the time cost of each running as well as the average value (ave.) and standard deviation (std.) in all 5 runnings are recorded in "./Results_timeSDSGC".
-*  The following images show the form of data recording.
-* 1) For the results  of  seven metrics on each dataset(benchamark): e.g., "./Results_ySDSGC/iris_result_y.mat".
-![image](https://github.com/NianWang-HJJGCDX/images/blob/main/1.png)  
-* 2) For the ave. and std. of  seven metrics in all 5 runnings (all  dataset (benchamark) together): i.e., "./Results_ySDSGC_all/result_all.mat".
-  Columns (1-7) for ave. and Columns (10-16) for std.
-  ![image](https://github.com/NianWang-HJJGCDX/images/blob/main/2.png)  
-* 3) The time cost of each running as well as its ave. and std. in all 5 runnings: e.g., "./Results_timeSDSGC/iris_result_time.mat"
-  ![image](https://github.com/NianWang-HJJGCDX/images/blob/main/3.png)  
+*  Seven clustering metrics are recorded (we only report three of them in the paper). For each dataset (benchamark), the accuracy (ACC), Normalized Mutual Information (NMI), Purity (PUR), Fscore, Precision (PRE), Recall (REC), Adjusted Rand Index (ARI), as well as  the average value (ave.) and standard deviation (std.) of them in total 5 runs  (we set 5 runnings in the paper to demonstrate deterministic result) are recorded in "./Results_ySDSGC". For convenience,  the ave. and std. of seven metrics on all the datasets (benchmarks) are recorded in "./Results_ySDSGC_all". Moreover, the time cost of each running as well as the average value (ave.) and standard deviation (std.) in all 5 runs are recorded in "./Results_timeSDSGC".
+# Citation
+If you think our word is helpful,  considering to star this repository. Thanks!
 
+If you use our code or noised data sets, please kindly cite our paper by
+```
+@ARTICLE{SDSGC,
+  author={Wang, Nian and Cui, Zhigao and Li, Aihua and Lu, Yihang and Wang, Rong and Nie, Feiping},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Structured Doubly Stochastic Graph-Based Clustering}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TNNLS.2025.3531987}}
+```
+
+My interests focus on machine learning (deep learning) and its applications to image enhancement, data clustering (classification), object recognition (tracking) etc. Please feel free to  communicate with me. If you are interested at my works, you can get more papers and codes at my [Homepage](https://nianwang-hjjgcdx.github.io/).
