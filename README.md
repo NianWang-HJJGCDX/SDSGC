@@ -7,7 +7,8 @@ The contributions of this paper are three-folded.
 1) we propose a structured doubly stochastic graph-based clustering model termed SDSGC.
 2) we propose a novel method based ALM to optimize the subproblem with doubly stochastic constraints.
 3) we formulate an effective noise-adding scheme and generate a series of noised face data sets based on the pipeline of unconstrained face clustering.
-Note: We crop the face area to form deep features, which implies some noised images whose face area fails to be detected are discarded. We have updated all the ".mat" documents for these noised face data sets, if you need the original noisy face images, you can download at the [Link](https://pan.baidu.com/s/1GQAp8JUowrvkDIYBOqhPNw?pwd=1234), extract code: 1234.
+
+:exclamation: Note: We crop the face area to form deep features, which implies some noised images whose face area fails to be detected are discarded. We have updated all the ".mat" documents for these noised face data sets, if you need the original noisy face images, you can download at the [Link](https://pan.baidu.com/s/1GQAp8JUowrvkDIYBOqhPNw?pwd=1234), extract code: 1234.
 # Usage
 
 ## To Reproduce  the results in the paper, please dicretly run the following two ".m" files respectively.
