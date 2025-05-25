@@ -55,7 +55,7 @@ eta = gamma;
 for rtimes = 1:runtimes
 time = 0;
 tic;
-[y,W] = SDSGC(X',W,k,gamma,eta);
+[y,W] = SDSGC(X',W,k,gamma,eta,2);
 Dw = sum(W); % for a doubly stochastic graph, its degree matrix is an identity matrix
 time = time + toc;
 metric_y =ClusteringMeasure_new(Y, y);

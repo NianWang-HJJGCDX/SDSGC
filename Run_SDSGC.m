@@ -48,7 +48,6 @@ load(dataf); X = NormalizeFea(X,1);
 k=length(unique(Y));
 [n,d]=size(X);
 c=15;
-
 % Initialization 
 [W,gamma] = GLAN(X',c);
 eta = gamma;
@@ -56,9 +55,8 @@ eta = gamma;
 for rtimes = 1:runtimes
 time = 0;
 tic;
-[y,W] = SDSGC(X',W,k,gamma,eta);
+[y,W] = SDSGC(X',W,k,gamma,eta,2);
 Dw = sum(W); % for a doubly stochastic graph, its degree matrix is an identity matrix
-time = time + toc;
 metric_y =ClusteringMeasure_new(Y, y);
 ACC_y(rtimes) = metric_y(1); 
 NMI_y(rtimes) = metric_y(2);
@@ -108,7 +106,6 @@ end;
     Result_time(2,2) = std(Time_cost);
     
 save([result_y_dir,char(dataname(cdata)),'_result_y.mat'],'Result_y');
-save([result_timeSDSGC_dir,char(dataname(cdata)),'_result_time.mat'],'Result_time');
 save([result_ySDSGC_all_dir,'result_all.mat'],'result_y_all');
 clear ACC_y NMI_y Pu_y Fscore_y Precision_y Recall_y ARI_y metric_y Result_y  y Result_time A F;
 
