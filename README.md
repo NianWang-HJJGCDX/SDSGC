@@ -1,5 +1,5 @@
 # Structured Doubly Stochastic Graph-based Clustering （SDSGC）
-This is a Matlab implementation of  paper "Structured Doubly Stochastic Graph-based Clustering", which is accepted by TNNLS2025. 
+This is a Matlab implementation of  paper "Structured Doubly Stochastic Graph-based Clustering", which is accepted by IEEE Transactions on Neural Networks and Learning Systems in 2025. 
 
 # Contributions
 The contributions of this paper are three-folded.
@@ -28,9 +28,9 @@ Then, run  "Run_SDSGC.m".  The results of aLL datasets (benchamarks) are obtaine
 Seven clustering metrics are recorded (we only report three of them in the paper). For each dataset (benchamark), the accuracy (ACC), Normalized Mutual Information (NMI), Purity (PUR), Fscore, Precision (PRE), Recall (REC), Adjusted Rand Index (ARI), as well as  the average value (ave.) and standard deviation (std.) of them in total 5 runs  (we set 5 runs in the paper to demonstrate deterministic results) are recorded in "./Results_ySDSGC". For convenience,  the ave. and std. of seven metrics on all the datasets (benchmarks) are recorded in "./Results_ySDSGC_all". Moreover, the time cost of each run as well as the average value (ave.) and standard deviation (std.) in all 5 runs are recorded in "./Results_timeSDSGC".
 
 ## For hyperparamters
-We adopted a heuristic method to avoid the tuning problem of hyperparameters in the model. Due to the use of the augmented Lagrange method, two additional hyperparameters, \mu and \rho, are introduced. Typically, the hyperparameters of the augmented Lagrange method do not require tuning. Our initial experiments proved that the performance was very stable with the Settings of these two parameters. When \mu is set to 1 and \rho is within [1-1.5], the impact on the final performance is very small.
+We adopted a heuristic method to avoid the tuning  of the hyperparameters in the designed model. Due to the use of the augmented Lagrange method, two additional hyperparameters, \mu and \rho, are introduced. Typically, the hyperparameters of the augmented Lagrange method do not require tuning. Our initial experiments proved that the performance was very stable with the settings of these two parameters. When \mu is set to 1 and \rho is within [1-1.5], the impact on the final performance is very small.
 
-# Improved versions
+# Our related works
 
 
  In [1], we applied our method to large-scale remote sensing data clustering, achieving a linear-complexity clustering model. In [2], we extended it to a high-order graph fusion-based clustering framework, attaining much higher accuracy than the baseline method presented in this work.
