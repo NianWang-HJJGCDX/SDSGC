@@ -22,7 +22,7 @@ distX = L2_distance_1(X,X);
 for iter = 1:NITER
     % update F
     distF = L2_distance_1(F',F');
-    Z = mu*W'-1/2*lambda-1/2*lambda'-1/2*distX-1/2*eta*distF;
+    Z = mu*W'-1/2*lambda+1/2*lambda'-1/2*distX-1/2*eta*distF;
     % update W
     W = zeros(num);
     for i=1:num
