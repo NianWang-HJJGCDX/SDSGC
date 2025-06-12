@@ -37,7 +37,8 @@ We adopted a heuristic method to avoid the tuning  of the hyperparameters in the
 
 [1] Large-scale Hyperspectral Image Projected Clustering via Doubly-stochastic Graph Learning. [Paper](https://www.mdpi.com/2072-4292/17/9/1526)  [Code](https://github.com/NianWang-HJJGCDX/HPCDL)
 
-[2] Multi-order Graph based Clustering Via Dynamical Low Rank Tensor Approximation. [Code](https://github.com/NianWang-HJJGCDX/MCDLT)
+[2] Multi-order Graph based Clustering Via Dynamical Low Rank Tensor Approximation. [Paper](https://www.sciencedirect.com/science/article/pii/S0925231225012433) [Code](https://github.com/NianWang-HJJGCDX/MCDLT)
+
 # For more  works
 If you are interested at my works, you can get more papers and codes at my [Homepage](https://nianwang-hjjgcdx.github.io/).
 
