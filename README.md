@@ -51,8 +51,8 @@ If you use our code or nois data sets, please kindly cite our paper by
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
   title={Structured Doubly Stochastic Graph-Based Clustering}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-14},
-  doi={10.1109/TNNLS.2025.3531987}}
+  volume={36},
+  number={6},
+  pages={11064-11077},
+  doi={10.1109/TNNLS.2025.3531987}}}
 ```
