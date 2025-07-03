@@ -34,7 +34,7 @@ We adopted a heuristic method to avoid the tuning  of the hyperparameters in the
 
 
  In [1], we applied our method to large-scale remote sensing data clustering, achieving a linear-complexity clustering model. 
- <!-- In [2], we extended it to a high-order graph fusion-based clustering framework, attaining much higher accuracy than the baseline method presented in this work. [2] Multi-order Graph based Clustering Via Dynamical Low Rank Tensor Approximation. [Paper](https://www.sciencedirect.com/science/article/pii/S0925231225012433) [Code](https://github.com/NianWang-HJJGCDX/MCDLT) --!>
+ [//]: #  In [2], we extended it to a high-order graph fusion-based clustering framework, attaining much higher accuracy than the baseline method presented in this work. [2] Multi-order Graph based Clustering Via Dynamical Low Rank Tensor Approximation. [Paper](https://www.sciencedirect.com/science/article/pii/S0925231225012433) [Code](https://github.com/NianWang-HJJGCDX/MCDLT) 
 
 [1] Large-scale Hyperspectral Image Projected Clustering via Doubly-stochastic Graph Learning. [Paper](https://www.mdpi.com/2072-4292/17/9/1526)  [Code](https://github.com/NianWang-HJJGCDX/HPCDL)
 
