@@ -36,7 +36,7 @@ In [1], we applied our method to large-scale doubly stochastic clustering, achie
 
 [1] Large-scale Hyperspectral Image Projected Clustering via Doubly-stochastic Graph Learning. [Paper](https://www.mdpi.com/2072-4292/17/9/1526)  [Code](https://github.com/NianWang-HJJGCDX/HPCDL)
 
-[2] Dynamic and Consistent Doubly Stochastic similarity learning for multi-view and multi-order clustering. [Paper](https://www.mdpi.com/2072-4292/17/9/1526)  [Code](https://github.com/NianWang-HJJGCDX/DCDS)
+[2] Dynamic and Consistent Doubly Stochastic similarity learning for multi-view and multi-order clustering. [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320326006631)  [Code](https://github.com/NianWang-HJJGCDX/DCDS)
 
 
 # For more  works
