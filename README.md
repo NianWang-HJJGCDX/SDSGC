@@ -35,6 +35,7 @@ We adopted a heuristic method to avoid the tuning  of the hyperparameters in the
 In [1], we applied our method to large-scale doubly stochastic clustering, achieving linear-complexity. In [2], we extended a multi-view doubly stochastic clustering model via  dynamic graph selection and Low-rank tensor, achieving high clustering accuracy.
 
 [1] Large-scale Hyperspectral Image Projected Clustering via Doubly-stochastic Graph Learning. [Paper](https://www.mdpi.com/2072-4292/17/9/1526)  [Code](https://github.com/NianWang-HJJGCDX/HPCDL)
+
 [2] Dynamic and Consistent Doubly Stochastic similarity learning for multi-view and multi-order clustering. [Paper](https://www.mdpi.com/2072-4292/17/9/1526)  [Code](https://github.com/NianWang-HJJGCDX/DCDS)
 
 
