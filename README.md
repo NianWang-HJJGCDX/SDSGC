@@ -54,5 +54,5 @@ If you use our code or nois data sets, please kindly cite our paper by
   volume={36},
   number={6},
   pages={11064-11077},
-  doi={10.1109/TNNLS.2025.3531987}}}
+  doi={10.1109/TNNLS.2025.3531987}}
 ```
